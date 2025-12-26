@@ -2,20 +2,21 @@
 
 ## Introduction
 
-This Excel project analyzes the **data science job market** to show  
-**which skills pay more**.
+This Excel project looks at the **data science job market**.  
+The goal is simple: understand **which skills are paid better** and **why**.
 
-The analysis uses real job posting data from **2025**.
-
+The analysis is based on real job postings from **2025**.
 
 ---
 
 ## 📌 Project Questions
 
-1. Do jobs that require **more skills** pay more?
-2. How do **salaries differ by region**?
-3. What are the **most common skills** in data jobs?
-4. Which skills are linked to **higher pay**?
+In this project, I focus on four questions:
+
+1. Do jobs that ask for **more skills** usually pay more?
+2. How do **salaries change by country or region**?
+3. What skills appear **most often** in data jobs?
+4. Which skills are connected to **higher salaries**?
 
 ---
 
@@ -34,12 +35,10 @@ The analysis uses real job posting data from **2025**.
 ### 🔍 Power Query (ETL)
 
 #### Extract
-- Loaded job and skill data from `data_salary_all.xlsx`.
-
-
+- Job and skill data was loaded from `data_salary_all.xlsx`.
 
 #### Load
-- Loaded cleaned tables into the workbook.
+- Cleaned tables were loaded into the workbook.
 
 📊 data_jobs_all  
 ![2_Project_Analysis_Screenshot3.png](Images/2_Project_Analysis_Screenshot3.png)
@@ -49,8 +48,8 @@ The analysis uses real job posting data from **2025**.
 
 ### 📊 Analysis
 
-Jobs requiring **more skills** tend to have **higher median salaries**,  
-especially senior and technical roles.
+Jobs that require **more skills** usually show **higher median salaries**.  
+This is especially clear for senior and technical roles.
 
 ![2_Project_Analysis_Chart1.png](Images/2_Project_Analysis_Chart1.png)
 
@@ -58,10 +57,8 @@ especially senior and technical roles.
 
 ## 2️⃣ Salary by Region
 
-
-
-Higher salaries are generally observed in the **United States**,  
-especially for senior data roles.
+Salaries are generally **higher in the United States**,  
+especially for senior data positions.
 
 ![2_Project_Analysis_Chart2.png](Images/2_Project_Analysis_Chart2.png)
 
@@ -75,14 +72,14 @@ Job and skill tables were connected using `job_id`.
 
 ![2_Project_Analysis_Screenshot5.png](Images/2_Project_Analysis_Screenshot5.png)
 
-Power Pivot was used to manage relationships and measures.
+Power Pivot was used to manage table relationships and calculations.
 
 ![2_Project_Analysis_Screenshot6.png](Images/2_Project_Analysis_Screenshot6.png)
 
 ### 📊 Analysis
 
-**SQL and Python** are the most common skills,  
-followed by cloud tools like **AWS and Azure**.
+**SQL and Python** appear most often in data jobs.  
+Cloud tools like **AWS and Azure** are also very common.
 
 ![2_Project_Analysis_Chart3.png](Images/2_Project_Analysis_Chart3.png)
 
@@ -92,10 +89,10 @@ followed by cloud tools like **AWS and Azure**.
 
 ### 📈 PivotChart
 
-Median salary was compared with skill frequency.
+Median salary was compared with how often each skill appears.
 
-High-value skills such as **Python, SQL, and Oracle** are linked to higher pay,  
-while basic office tools show lower salaries.
+Skills like **Python, SQL, and Oracle** are linked to higher pay,  
+while basic office tools are linked to lower salaries.
 
 ![2_Project_Analysis_Chart4.png](Images/2_Project_Analysis_Chart4.png)
 
@@ -103,5 +100,5 @@ while basic office tools show lower salaries.
 
 ## Conclusion
 
-This project shows that **specialized technical skills** are strongly linked to higher salaries in data jobs.  
-Learning skills like **SQL, Python, and cloud technologies** can significantly improve career and salary potential.
+This project shows that **technical and specialized skills** matter a lot in data jobs.  
+Learning skills like **SQL, Python, and cloud tools** can help you earn more and grow faster in your career.
